@@ -12,6 +12,9 @@
     <% var field_sort = theme.posts_overview.sort_updated ? 'updated' : 'date' %>
     <% if (theme.posts_overview.show_all_posts) { %>
       <% var show_posts = page.posts.sort(field_sort, 'desc') %>
+      <% var start_post_index = theme.posts_overview.post_count * page.prev%>
+      <% var end_post_index = theme.posts_overview.post_count * (page.prev + 1) %>
+      <% show_posts = site.posts.sort(field_sort, 'desc').slice(start_post_index, end_post_index) %>
     <% } else { %>
       <% var show_posts = site.posts.sort(field_sort, 'desc').limit(theme.posts_overview.post_count || 5) %>
     <% } %>

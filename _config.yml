@@ -41,19 +41,19 @@ tags_overview: false
 posts_overview:
   show_all_posts: true
   post_count: 10
-  sort_updated: false
+  sort_updated: true
 
 # Customize the archive view.
 # Options:
 #   - sort_updated: sort posts by last modification date instead of creation date.
 archive:
-  sort_updated: false
+  sort_updated: true
 
 # Customize the article view.
 # Options:
 #   - show_updated: show the last modification date.
 post:
-  show_updated: false
+  show_updated: true
 
 ##############################################################################
 # Look and Feel
