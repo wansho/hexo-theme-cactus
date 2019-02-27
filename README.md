@@ -1,10 +1,10 @@
-# Cactus
+# Cactus-Lite
 
 A responsive, clean and simple [Hexo](http://hexo.io) theme for a personal website.
 
-:cactus: [Demo](https://probberechts.github.io/hexo-theme-cactus/)
+:cactus: [Demo](http://wansho.cn/)
 
-![screenshot](https://docs.google.com/uc?id=1K66bccwr4z9TgJev0AzCqbI7BxzVr7md)
+![screenshot](screenshot.png)
 
 ## Summary
 
@@ -13,6 +13,14 @@ A responsive, clean and simple [Hexo](http://hexo.io) theme for a personal websi
 - [Install](#install)
 - [Configuration](#configuration)
 - [License](#license)
+
+## Modification for Lite
+
+1. **sort posts by the updated time**
+2. **remove the menu in the post page and modify the TOC style**
+3. **remove many unnecessary blocks to make it neat**
+4. **make all the blocks aligned to the left**
+5. **apply the vscode classic purple to the light-theme**
 
 ## General
 
